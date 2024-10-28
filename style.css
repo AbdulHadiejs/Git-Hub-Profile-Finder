@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    color: #333;
+}
+  
+
+
+
+
+#Main-Form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    margin-left: 105px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+  
+#Main-Form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+ 
+#Main-Form button {
+    padding: 10px;
+    background-color: #0366d6;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+#Main-Form button:hover {
+    background-color: #0253b3;
+}
+  
+
+#error {
+    color: #e3342f;
+    font-size: 14px;
+    margin-top: 8px;
+}
+  
+
+#Main-div {
+    display: none; /* Initially hidden, shown after a user is found */
+    margin-top: 20px;
+    padding: 88px;
+    margin-left: 50px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    text-align: center;
+}
+  
+#Main-div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #28a745;
+}
+  
+
+#Main-div h2 {
+    font-size: 35px;
+    margin-bottom: 8px;
+    color: #333;
+}
+  
+
+#Main-div p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 10px;
+}
+  
+#Main-div a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #0366d6;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+  
+#Main-div a:hover {
+    background-color: #0253b3;
+}
+
+
+.head-1{
+    color: #FC6D6D;
+    font-size: 60px;
+    font-weight: 500px;
+}  
+  
+.footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .animated-text {
+    animation: fadeIn 1.5s ease-in-out;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }  

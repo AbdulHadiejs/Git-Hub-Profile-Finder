@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="head-1">GitHub Profile Finder</h1>
+    <form id="Main-Form">
+        <input type="text" placeholder="Enter GitHub Username" required>
+        <button type="submit">Search</button>
+        <p id="error"></p>
+    </form>
+
+    <div id="Main-div">
+        <img src="" alt="User Avatar">
+        <h2 id="username">Username</h2>
+        <p id="repos">Repositories: </p>
+        <a id="profile-link" href="#" target="_blank">View Profile</a>
+    </div>
+    <br>
+    <br>
+    <footer class="footer">
+    <p><span class="animated-text">Created by Abdul Hadie © 2024</span></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src ="app.js"></script>
+</body>
+</html>
